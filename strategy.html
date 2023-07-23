@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ultimate Resource kit test</title>
+  </head>
+  <body class="h-screen relative flex">
+    <!-- Content -->
+    <div class="mt-16 lg:mx-16 md:block w-full lg:w-6/12">
+      <div class="mx-6">
+        <div class="py-12">
+          <h1 class="font-semibold text-2xl">How do i compare to my peers?</h1>
+          <p class="py-3 text-gray-500">
+            These numbers represents current goal achievement
+          </p>
+          <div class="lg:flex block space-x-6">
+            <div class="lg:w-2/6">
+              <span class="my-6 py-3 flex border-b">
+                <h1 class="font-bold">Age:</h1>
+                <p class="px-3">Under 30</p>
+              </span>
+              <span class="my-6 py-3 flex border-b">
+                <h1 class="font-bold">Salary:</h1>
+                <p class="px-3">K 20 - K 30</p>
+              </span>
+              <span class="my-6 py-3 flex border-b">
+                <h1 class="font-bold">Gender:</h1>
+                <p class="px-3">Male</p>
+              </span>
+            </div>
+            <div class="flex space-x-6 mt-16">
+              <div
+                role="progressbar"
+                aria-valuenow="67"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="--value: 67"
+              ></div>
+              <div
+                role="progressbar"
+                aria-valuenow="67"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="--value: 67"
+              ></div>
+              <div
+                role="progressbar"
+                aria-valuenow="67"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="--value: 67"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Nav -->
+      <div
+        class="flex flex-col items-center justify-center lg:hidden absolute bottom-0 w-screen bg-white"
+      >
+        <button class="bg-blue-700 w-full rounded-md h-12 text-white">
+          Update
+        </button>
+    </div>
+  </body>
+  </html>
